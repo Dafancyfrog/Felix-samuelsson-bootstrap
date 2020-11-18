@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css"> <!--ordningen spelar roll den som är före laddas in först i detta fallet bootstrap -->
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boootstraaaaaap</title>
 </head>
 <body>
-    <h1>DEtta är en bootstrap test</h1>
+    <div class="container" style="background-color: pink;">
+        <h1>Detta är second container</h1>
+        <div class="container" style="background-color: orange;">
+            <h1>Detta är first container</h1>
+        </div>
+    </div >
 </body>
 </html>
