@@ -1,5 +1,34 @@
+.start-box {
+	margin: 200px;
+	background-color: pink;
+	height: 250px;
+	text-align: center;
+	padding: 50px;
+}
+.btn-primary {
+	background-color: lime;
+	border: blue;
+}
+.btn-primary:hover {
+	border: lime;
+	background-color: blue;
+}
+.card {
+	border: 2px lime solid;
+}
+.p-2 {
+	border: purple 2px solid;
+	background-color: purple;
+}
 .container {
-
-    padding-left: 50px;
-    padding-right: 50px;
+	margin-bottom: 200px;
+}
+.title {
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+}
+p {
+	padding-bottom: 30px;
+	text-align: center;
 }

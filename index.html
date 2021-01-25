@@ -1,18 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css"> <!--ordningen spelar roll den som är före laddas in först i detta fallet bootstrap -->
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boootstraaaaaap</title>
+	<!-- Dessa links används för att länka mitt css och bootstrap så att jag kan ändra dom som det behövs-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!--ordningen spelar roll den som är före laddas in först i detta fallet bootstrap -->
+	<link href="style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Boootstraaaaaap</title><!-- Detta är mmin title som finns på fliken när man öppnar sidasn-->
 </head>
 <body>
-    <div class="container" style="background-color: pink;">
-        <h1>Detta är second container</h1>
-        <div class="container" style="background-color: orange;">
-            <h1>Detta är first container</h1>
-        </div>
-    </div >
+	<br>
+	<!-- Detta är en break det är ett element för att göra ett mellanrum där break elementet är det hjälper med att mi första container är längre ner än vanligt-->
+	<div class="container img-thumbnail start-box">
+		<!-- Detta är en container med min egna css start-box och img thumbnail för att ge den en 1px rundad edge för lite extra spice -->
+		<h1>The foundations of HTML and CSS</h1>
+		<!-- Detta är titlen för start boxen och den använder h1 för större text storlek som används för rubriker-->
+		<br>
+		<!-- Detta är en break så den gör ett mellanrumm mellan -->
+		<p>Css och HTML grunder med ett anslag av viktiga komponenter som behövs för att jobba med språken</p>
+		<!-- p är text som är i vanlig storlek-->
+	</div><br>
+	<!-- två braks för lite extra mellanrum-->
+	<br>
+	<div class="container">
+		<div class="container img-thumbnail" style="background-color:aqua;">
+			<!-- Detta är början på mina boxes me förklaringen för ämnena jag använder ett mini style tag här för att alla boxes ska få sin egna färg och det är enklare att skriva 
+            Annars är det standarden container och img thumbnail för den fina kanten-->
+			<h1 class="title">Element</h1>
+			<!-- Denna h1 har bara lite margin för att det ska vara lite mellanrum mellan titlen och texten och det är det title classen gör -->
+			<p>Ett element använder man för att skriva sin kod i html och css. Det defineras med symbolerna "&lt;"och "&gt;"och
+			en kallas en tag medans ett element är allting mitt imellan start tag och slut tag. Dessa används i för allt till
+			exempel "body" elementet gör upp hela kroppen för html documentet. Element bygger upp allting man gör med html. Som
+			exempel ett p element används för att skriva detta.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:magenta;">
+			<!-- Detta repeteras för alla boxes jag ville göra en navbar med ids så man kunde hoppa till de olika delarna men hade inte tid -->
+			<h1 class="title">HTML</h1>
+			<p>Hypertext Markup Language(HTML) är ett programeringspråk för document som ska visas upp i form av webbrowsers.
+			HTML är specifikt gjort för det och det finns ett antal av varianter av språket men vanligtvis är språket använt i
+			samarbete med Cascading Style Sheet(CSS) och JavaScript.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:snow;">
+			<h1 class="title">ID</h1>
+			<p>ID är en del av HTML och används för att ge ett element ett unikt id. Id måster vara unikt innom HTML documentet
+			och används på många sätt när man vill välja ett specifikt element. Id kan också användas av JavaScript .</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:plum;">
+			<h1 class="title">Class</h1>
+			<p>Class elementet liknar id elementet men till skillnad från id elementet så behöver class elementet inte vara
+			unikt utan kan bli delat av oändligt många element. Detta kan användas på flera sätt till exempel om man vill ha
+			containers som jag har på denna sidan så använder man sig av Class "container" i bootstrap för att alla ska bli
+			lådor.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:gray;">
+			<h1 class="title">Meta</h1>
+			<p>Meta elementet är en förkortning för metadata och används i htmml document. Metadata är data(information) av
+			data. En meta tag används i head elementet och kan användas för att ändra layouten och storleken av sidan så man kan
+			använda den på telefånen eller en tablet utan att den ser konstig ut. Metadatan kommer inte ses på sidan utan
+			används av machinerna bakom allt.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:lightcoral;">
+			<h1 class="title">Responsive</h1>
+			<p>Att en hemsida är responsive betyder att hemsidan kommer automatiskt att justera sig beroende på vad man använder
+			varesig tablet, desktop eller telefån så kommer blider och text ändra storlek så det passar med vad du använder.
+			Detta är gjort med hjälp med meta elementet som justerar storleken på allt.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:yellow;">
+			<h1 class="title">http</h1>
+			<p>http ller Hypertext Transfer Protocol är ett kommunikations protokoll som grundades för att kunna leverera HTML
+			sidor från webservrar till web klienter. I dagens samhälle används det för att överföra webbsidor till The World
+			Wide Web (WWW)</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:orange;">
+			<h1 class="title">https</h1>
+			<p>Hypertext Transfer Protocol Secure eller https är liknande med http med att det är ett sätt att skicka html
+			sidor. Men det tillagda S i slutet av orddet betyder Secure och det krypterar medelandet vi vill skicka så att det
+			är svårare att använda om man får tag på det och inte kan kryptera det tillbaka. Detta hjälper med säkerheten på
+			webben och är väldigt bra att ha.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:teal;">
+			<h1 class="title">Compressed data</h1>
+			<p>Compressing data är när man har en bit kod men skriver om den så den ska ta mindre plats och vara mera effektiv.
+			alltså man förkortar den så mycket som möjligt så datorerna kan ladda den snabbare och utan problem</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:burlywood;">
+			<h1 class="title">CDN</h1>
+			<p>CDN eller Content Delivery Network är en stor grupp sv utspridda servrar över flera platser på jorden. Dessa
+			servrar sparar kopior av data så att man kan enklare och snabbare få data oberoende vart man bor eftersom servrarna
+			finns på flera olika platser så skickas man datan av den som är närmast och detta hjälper med att minska
+			laddningstiden och gör data enklare och snabbare att få tag på. .</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:darkgoldenrod;">
+			<h1 class="title">Local Bootstrap</h1>
+			<p>Local bootstrap kan användas av CDN och är bara vanliga bootstrap som är närmare kan göra sidorna använder
+			bootstrap att ladda snabbare och kan till och med minska bandwidth användningen av sida på grund av sättet CDN
+			skickar data. Detta är viktigt för att hosta en websida kostar pengar och vissa hosting företag tar betalt på hur
+			mycket bandwidth du använder så det kan minska priset på hela sidan.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:darkkhaki;">
+			<h1 class="title">JQuery</h1>
+			<p>JQuery är ett JavaScript biblotek av kod som är tänkt att förenkkla HTML och css användning. JQuery liknar
+			bootstrap på många sätt med att det hjälper att dra ner tiden att göra en hemsida med efetrsom mycket av det man
+			använder är redan gjort och man behöver bara ändra lite istället för att göra zin sida från grunden.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:lawngreen;">
+			<h1 class="title">Flexbox</h1>
+			<p>Flexible box moduel eler flexbox kan man gissa vad det är med tanke på att box är i namnet. Men som du kan ha
+			gissat så hjälper flexbox att göra boxes i html och css vilket används mycekt i webdesign och förenklar skapandet
+			och användnignen av dessa boxes.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:mediumvioletred;">
+			<h1 class="title">Grid</h1>
+			<p>Grid systemet är en avd de kraftfullaste layout systemet i css eftersom till skillnad från flexbox som bara
+			fungerar på 1 diension så fungerar gridsystemet på 2 dimensioner. Detta används mycket eftersom det oftast hjälper
+			med att designa websidor utan att behöva används saker som positioning och floats som sparat mycket tid och plats
+			som koden tar upp.</p>
+		</div>
+		<div class="container img-thumbnail" style="background-color:violet;">
+			<h1 class="title">Codesnippets</h1>
+			<p>Code snippets är korta bitar av kopierbar kod som kan återanvändas på många sätt. Man brukar använda code
+			snippets genom att man kopierar in dessa bitar av kod i större program för att göra programeringen enklare.</p>
+		</div>
+	</div>
 </body>
 </html>
